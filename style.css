@@ -1,0 +1,74 @@
+.courseInfo {
+  background-color: mintcream
+}
+.byMe {
+  background-color: lavenderblush
+}
+.titles {
+  background-color: peachpuff
+}
+.lists {
+  background-color: powderblue;
+  font-family: Courier New;
+}
+.miniTitles {
+  background-color: royalblue
+}
+.contentBox {
+  width: 500px;
+  height: 475px;
+  background-color: lavender;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 225px 225px;
+  gap: 10px 20px;
+}
+.content {
+  text-align: center;
+  background-color: mintcream;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  background-color: rgb(184, 254, 184);
+}
+.logo img{
+  height: 40px;
+  width: 40px;
+}
+nav ul li{
+  display: inline-block;
+  padding: 10px 20px;
+}
+.guide {
+  background-color: cornsilk;
+}
+#contactUs {
+  color: red;
+  font-family: 'Bungee Shrine', cursive;
+  background-color: pink;
+}
+.contactRequirements {
+  text-align: center;
+ color: darkorange;
+  font-family: 'Courier New', 'Courier New', Courier, monospace;
+  background-color: lightcyan;
+}
+.contactFills::placeholder {
+  text-align: center;
+  color: darkcyan;
+  background-color: lavender;
+}
+.submitClass {
+  text-align: center;
+}
+#submitButton {
+  background-color: yellowgreen;
+  color: yellow;
+}
+.blog {
+  background-color: lightskyblue;
+}
